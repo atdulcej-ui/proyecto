@@ -169,3 +169,12 @@ Para responder a la necesidad detectada, se plantea el desarrollo de una aplicac
 ¿Cual es su arquitectura/stick simple?
 Usaremos visual studio y tambien las wallets de interledger para toder crear una conexion entre dos personas mediante los links, siendo nmás facil ahorrar mediante open payments.
 }
+
+¿Que funciones son indispensables? 
+Que cada usuario tenga su billetera electronica en la wallet de interledger despues de eso cada quien tendra que tener su (Payment Pointers) al tenerlo tambien creamos la url para que se pueda completar la transaccion y se vea reflejada en nuestra caja de ahorros.
+
+
+¿Quien sera responsable de construir que parte?
+Adan estara encargado de realizar la pagina web con botones y estilos 
+joseline y Farit estaran encargados de realizar las conexiones entre nodejs y visual code al igual que las conexiones entre visual code y las wallets 
+alan estara encargado de realizar la pagina web junto con adan y encargado de buscar informacion y diseño**
