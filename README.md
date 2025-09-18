@@ -178,3 +178,19 @@ Que cada usuario tenga su billetera electronica en la wallet de interledger desp
 Adan estara encargado de realizar la pagina web con botones y estilos 
 joseline y Farit estaran encargados de realizar las conexiones entre nodejs y visual code al igual que las conexiones entre visual code y las wallets 
 alan estara encargado de realizar la pagina web junto con adan y encargado de buscar informacion y diseño**
+
+
+(async () => {
+  const client = await createAuthenticatedClient({
+    walletAddressUrl: "", // Make sure the wallet address starts with https:// (not $), and has no trailing slashes
+    privateKey: "private.key",
+    keyId: "",
+  });
+
+  const sendingWalletAddress = await client.walletAddress.get({
+    url: "", // Make sure the wallet address starts with https:// (not $)
+  });
+  const receivingWalletAddress = await client.walletAddress.get({
+    url: "", // Make sure the wallet address starts with https:// (not $)
+  });
+
