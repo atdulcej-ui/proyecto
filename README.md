@@ -24,3 +24,6 @@ Para responder a la necesidad detectada, se plantea el desarrollo de una aplicac
      Rendimientos y beneficios adicionales
      Seguridad economica
      Beneficios Fiscales
+
+     ¿Cuál es su arquitectura/stack simple?
+Usaremos visual studio y tambien las wallets de interledger para toder crear una conexion entre dos personas mediante los links, siendo nmás facil realizar transacciones sin usar un plastico.
